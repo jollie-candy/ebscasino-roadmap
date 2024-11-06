@@ -1,0 +1,36 @@
+name: "🚀 Feature Request"
+description: "Suggest a new feature for EBSCasino."
+labels: ["feature request"]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for suggesting a new feature!
+
+  - type: textarea
+    attributes:
+      label: Problem
+      description: Describe the problem or improvement you're suggesting.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Solution
+      description: Suggest a solution, if you have one.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Specify if this applies to mainnet or testnet.
+      placeholder: Mainnet/Testnet
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional Info
+      description: Any other details.
+    validations:
+      required: false

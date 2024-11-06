@@ -1,0 +1,49 @@
+name: "🐛 Bug Report"
+description: "Report an issue with EBSCasino."
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Please fill out the form below to help us resolve your issue.
+
+  - type: textarea
+    attributes:
+      label: Current and Expected Behavior
+      description: What is happening and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Environment & Network
+      description: |
+        Specify your environment (mainnet or testnet), OS, and browser.
+      placeholder: |
+        Environment: Mainnet/Testnet
+        OS: macOS, Windows, Ubuntu, etc.
+        Browser: Chrome, Firefox, Safari, etc.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Outline steps to reproduce the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Logs
+      description: Include relevant logs or console output, if any.
+      placeholder: |
+        Paste logs here.
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: Any other details about the issue.
+    validations:
+      required: false
