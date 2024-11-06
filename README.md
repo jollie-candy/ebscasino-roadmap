@@ -1,8 +1,8 @@
 ![](./images/ebscasino-cover.png)
 
-## EBSCasino
+## [EBSCasino](https://ebscasino.com/)
 
-Welcome to EBSCasino, a fast, fun, and 100% provably fair betting platform on the [Aptos](https://github.com/aptos-labs) blockchain!
+Welcome to [EBSCasino](https://ebscasino.com/), a fast, fun, and 100% provably fair betting platform on the [Aptos](https://github.com/aptos-labs) blockchain!
 
 ## Features
 
